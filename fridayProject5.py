@@ -1,6 +1,6 @@
 import sqlite3 as lite
 
-con = lite.connect('FridayProj5.py')
+con = lite.connect('FridayProj5.db')
 
 with con:
     cur = con.cursor()
